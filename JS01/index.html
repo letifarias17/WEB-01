@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Adivinhe o número</h1>
+    </header>
+    <section>
+        <div id="status-bar">
+            <p id="status"></p>
+        </div>
+        <div id="numero">
+            <p id="pInstrucao">Escolha a dificuldade e clique em Iniciar.</p>
+            
+            <div>
+              <label for="selectDificuldade">Escolha a dificuldade:</label>
+              <select id="selectDificuldade">
+                <option value="facil">Fácil (1-50, 10 vidas)</option>
+                <option value="medio" selected>Médio (1-100, 7 vidas)</option>
+                <option value="dificil">Difícil (1-200, 5 vidas)</option>
+              </select>
+            </div>
+            <br>
+            <button id="btIniciar">Iniciar</button><br><br>
+            Palpite: <input type="number" id="num1"><br><br>            
+            <button id="btChutar">Chutar</button>
+            
+        </div>
+        <div id="resultado">
+            <p><strong>Histórico de Palpites</strong></p>
+            <p id="txtResultado">...</p>
+        </div>
+
+    </section>
+    <footer>
+     <p id="txtRodape">Desenvolvido na disciplina WEB1</p>
+    </footer>
+
+    <script src="interacao.js"></script>
+</body>
+</html>

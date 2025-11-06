@@ -1,0 +1,124 @@
+body {
+    background-color: #D6EBFF; 
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #004A99; 
+}
+
+section {
+    background-color: #FFFFFF; 
+    width: 300px;
+    min-height: 500px; 
+    padding: 15px;
+    margin: 20px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+div#numero,
+div#resultado,
+div#status-bar {
+    background-color: #F0F8FF; 
+    border-radius: 8px;
+    width: 270px; 
+    margin: 10px auto;
+    padding: 10px;
+}
+
+div#status-bar {
+    text-align: center;
+    height: auto;
+}
+
+div#numero {
+    text-align: center;
+    height: auto; 
+}
+
+div#resultado {
+    text-align: left; 
+    height: 240px;
+    width: 270px; 
+    overflow-y: auto; 
+}
+
+p#status {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #004A99; 
+    margin: 0; 
+}
+
+p#txtRodape {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+div#resultado p:first-child {
+    text-align: center;
+    margin-top: 0;
+}
+
+p#txtResultado {
+    text-align: left;
+    padding-left: 10px;
+    word-wrap: break-word; 
+}
+
+button {
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+button:active {
+    background-color: #004A99;
+    transform: translateY(0);
+}
+
+button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+    transform: none;
+}
+
+input[type="number"],
+select {
+    width: 150px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+div#numero label {
+    font-weight: bold;
+    color: #333;
+}
