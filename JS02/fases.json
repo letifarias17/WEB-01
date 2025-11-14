@@ -1,0 +1,23 @@
+{
+  "frutas": [
+    "ABACAXI",
+    "MELANCIA",
+    "BANANA",
+    "MORANGO",
+    "UVA",
+    "LARANJA",
+    "PERA",
+    "MANGA",
+    "GOIABA",
+    "CEREJA",
+    "ABACATE",
+    "LIMAO",
+    "MAMAO"
+  ],
+  "animais": [
+    "CACHORRO",
+    "GATO",
+    "ELEFANTE",
+    "GIRAFA"
+  ]
+}
