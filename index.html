@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe a palavra</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Adivinhe a palavra</h1>
+    </header>
+
+    <main class="container">
+        <div id="message-box" class="hidden">
+            <p id="message-text"></p>
+        </div>
+
+        <div id="status-bar">
+            <p id="vidas-display">Vidas: 6</p>
+            <p id="cronometro-display">Tempo: 60s</p>
+        </div>
+
+        <div id="box-iniciar">
+            <button id="btn-iniciar" disabled>Carregando...</button>
+        </div>
+
+        <div id="box-palavra">
+            <p id="palavra"></p>
+        </div>
+
+        <div id="box-teclado">
+            </div>
+
+    </main>
+    <footer>
+        <p id="txtRodape">Desenvolvido na disciplina WEB1</p>
+    </footer>
+
+    <script src="interacao.js"></script>
+</body>
+
+</html>
